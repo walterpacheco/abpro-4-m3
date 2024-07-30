@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, rgb(86, 86, 238), rgb(174, 170, 170));
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    background: linear-gradient(to top, rgb(243, 243, 242), rgb(255, 254, 254));
+    border-radius: 8px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+h1{
+    padding-top: 1em;
+    font-weight: 700;
+    color: rgb(74, 74, 74);
+}
+
+h2{
+    color: rgb(61, 61, 61);
+    padding-top: 1em;
+    font-weight: 600
+}
+
+.btn{
+    border-radius: 16px;
+    font-weight: 600;
+}
+
