@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación ABPro Grupal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Trabajo grupal 4</h1>
+        <div class="mb-3">
+            <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento:</label>
+            <input type="date" class="form-control" id="fechaNacimiento">
+        </div>
+        <button class="btn btn-primary" onclick="mostrarInformacionNacimiento()">Mostrar Información</button>
+        <div id="resultados" class="mt-3"></div>
+        
+        <!-- Permanencia en la organización -->
+        <h2>Permanencia en la Organización</h2>
+        <div class="mb-3">
+            <label for="fechaIngreso" class="form-label">Fecha de Ingreso:</label>
+            <input type="date" class="form-control" id="fechaIngreso">
+        </div>
+        <!-- <div class="mb-3">
+            <label for="fechaActual" class="form-label">Fecha Actual:</label>
+            <input type="date" class="form-control" id="fechaActual">
+        </div> -->
+        <button class="btn btn-primary" onclick="mostrarPermanencia()">Mostrar Permanencia</button>
+        <div id="resultadosPermanencia" class="mt-3"></div>
+        
+        <!-- Horas trabajadas -->
+        <h2>Horas Trabajadas</h2>
+        <div class="mb-3">
+            <label for="horaEntrada" class="form-label">Hora de Entrada:</label>
+            <input type="datetime-local" class="form-control" id="horaEntrada">
+        </div>
+        <div class="mb-3">
+            <label for="horaSalida" class="form-label">Hora de Salida:</label>
+            <input type="datetime-local" class="form-control" id="horaSalida">
+        </div>
+        <button class="btn btn-primary" onclick="mostrarHorasTrabajadas()">Mostrar Horas Trabajadas</button>
+        <div id="resultadosHoras" class="mt-3"></div>
+        
+        <!-- Total de horas trabajadas por 8 trabajadores -->
+        <h2>Total Horas Trabajadas por 8 Trabajadores</h2>
+        <button class="btn btn-primary" onclick="mostrarHorasTotales()">Mostrar Horas Totales</button>
+        <div id="resultadosHorasTotales" class="mt-3"></div>
+    </div>
+    <script type="module" src="/assets/js/scripts.js"></script>
+</body>
+</html>
